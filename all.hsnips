@@ -663,7 +663,7 @@ endsnippet
 snippet \sec "\section*{}" iA
 \section*{$1}$2
 endsnippet
-
+template
 context math(context)
 snippet `\.\.((.|\n)*)\.\.` wAM
 ``
