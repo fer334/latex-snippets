@@ -49,14 +49,14 @@ Estas instrucciones te guiaran para la configuracion de la extension y instalaci
 
 ### Requisitos
 
-Para poder utilizar esta herramienta necesitas
+Para poder utilizar esta herramienta necesitas:
 - La extension para vscode [HyperSnips](https://github.com/draivin/hsnips). El cual puedes encontrarlo en la [pagina de descargas](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips)
 
 - Para utilizar la funcion de calculo automatico, necesitas la libreria [math-expressions](https://github.com/Doenet/math-expressions):
 
     - Para instalarlo: 
         ```
-            npm i math-expressions
+            npm i math-expressions -g
         ```
 
 ### Instalación

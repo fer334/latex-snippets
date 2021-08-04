@@ -5,6 +5,9 @@
 
 <h3 align="center">Latex Snippets for Vscode</h3>
 
+
+>_This [README.md](README.md) is the english version, you can read in Spanish at [README-Spanish.md](README-Spanish.md)._
+
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
@@ -16,99 +19,73 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center">
+  Latex Snippets for Vscode is a configuration file for the HyperSnips extension. This file enables fast writing of latex files 
     <br> 
 </p>
 
 ## 📝 Table of Contents
 
 - [About](#about)
+- [Examples](#example)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Using this snippets, you can write your latex files in a very fast way.
+
+## Examples <a name = "example"></a>
+<img src="./img/mkdm.gif">
+<img src="./img/superscripts.gif">
+<img src="./img/frac.gif">
+<img src="./img/bazel2.gif">
+<img src="./img/complex5.gif">
+<img src="./img/sum4.gif">
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+This steps will guide you to install the latex snippets for vscode.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+For use this tool you need to have installed:
+- Vscode extension [HyperSnips](https://github.com/draivin/hsnips), you can install it from the [vscode extension page](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips)
 
-```
-Give examples
-```
+- To use the calculations function you need to have installed [math-expressions](https://github.com/Doenet/math-expressions)
+  - You can install it running the command
+    ```
+    # npm i math-expressions -g
+    ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+The first step is install and enable HyperSnips in your vscode.
 
-Say what the step will be
+Then, depending on the platform you are using, you have to go the configuration folder of the Hypersnips extension:
+- Windows: ```%APPDATA%\Code\User\hsnips```
+- Mac: ```$HOME/Library/Application Support/Code/User/hsnips```
+- Linux: ```$HOME/.config/Code/User/hsnips```
 
-```
-Give the example
-```
+For the next step, you need the configuration file for the extension. For this clone the repository and copy the file ```all.hsnips``` to the configuration folder.
 
-And repeat
+Last step is reload the extension. You can do it by pressing ```ctrl + alt + p``` and write ``` HyperSnips: Reload Snippets``` on the pop-up window.
 
-```
-until finished
-```
+You can now start writing your latex files. Open a new file and write ```template``` and press ```tab``` to generate a latex template. Enjoy
 
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+Working in progress
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@fer334](https://github.com/fer334) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/fer334/latex-snippets/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [latex-snippets](https://github.com/gillescastel/latex-snippets) - The idea of this project is based on the latex-snippets of [gillescastel](www.github.com/gillescastel), he made the tool to working with vim. I just modified it to work with vscode.
